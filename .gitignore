@@ -3,3 +3,21 @@ bin/*
 lib/*
 pyvenv.cfg
 
+# Configuration files
+.env
+config.yml
+keys.json
+userbank-*.json
+
+# Python cache
+src/userbank/__pycache__/*.pyc
+src/__pycache__/*.pyc
+
+# Wheels and binaries
+dist/*
+
+# System files
+.DS_Store
+
+# Documentation
+google_app.txt

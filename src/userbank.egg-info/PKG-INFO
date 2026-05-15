@@ -1,3 +1,21 @@
+Metadata-Version: 2.4
+Name: userbank
+Version: 1.0.0
+Summary: A Pythonic wrapper for Google Sheets based user management.
+Author-email: Jordi Carrera Ventura <jordi.carrera.ventura@gmail.com>
+Project-URL: Google page, https://github.com/JordiCarreraVentura/userbank
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: google-api-python-client
+Requires-Dist: google-auth-httplib2
+Requires-Dist: google-auth-oauthlib
+Requires-Dist: PyYAML
+Requires-Dist: python-dotenv
+Dynamic: license-file
+
 # User Bank
 
 A Pythonic wrapper for Google Sheets based user management using the official Google API client.

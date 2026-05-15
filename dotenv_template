@@ -1,0 +1,13 @@
+# --- Google Sheets credentials ---
+
+# Path to a Google service account JSON key file (standard Google convention)
+GOOGLE_APPLICATION_CREDENTIALS=keys.json
+
+# Or: inline the entire service account JSON as a single-line string
+# USER_BANK_CREDENTIALS_JSON={"type":"service_account","project_id":"...","private_key_id":"...","private_key":"-----BEGIN PRIVATE KEY-----\n...\n-----END PRIVATE KEY-----\n","client_email":"...","client_id":"...","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_x509_cert_url":"..."}
+
+# --- PyPI publishing credentials ---
+# For token-based auth, set PYPI_USERNAME=__token__ and PYPI_PASSWORD to your PyPI API token.
+# Generate a token at: https://pypi.org/manage/account/token/
+PYPI_USERNAME=__token__
+PYPI_PASSWORD=pypi-xxxxxxxxxxxxxxxxxxxx
